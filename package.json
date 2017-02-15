@@ -1,0 +1,10 @@
+{
+  "name": "lam-emoji-demo",
+  "scripts": {
+    "deploy": "deployless update name=emoji file=index.js bucket=ams-admin "
+  },
+  "dependencies": {
+    "deployless": "^0.2.1",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
